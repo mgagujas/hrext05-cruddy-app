@@ -55,4 +55,7 @@ Maybe add a feature that makes it not limited to codewars or codesignal. If you 
 - [ ] bootstrap/material (css library)
 
 #### My Spin
-(to be filled out by you)
+-Created a "train" button that randomly selects a problem that has been stored in localStorage.
+-Created an image of a notepad that lets me add notes to a key in the localStorage. Clicking it reveals a text area that lets you input the notes and clicking it again sets the textarea's value to the key, notes, value. So when you mouseover a specific problem under interesting problems, the notes section will be filled with the contents of that problem's notes.
+-When clicking the red 'x' next to a problem, a prompt message asks to type delete to confirm that you would like to delete the key from the localStorage. Not typing delete or pressing cancel will do nothing.
+-Added a sortBy section, that uses underscores sortby, in interesting problems. You can sort it alphabetically by selecting 'name' then sort or you can sort it by the problems you completed the least amount of times by selecting 'completed' and clicking sort.
