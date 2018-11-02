@@ -1,0 +1,69 @@
+body {
+  background-color: grey;
+  font-size: 24px;
+}
+header {
+	text-align: center;
+	font-size: 30px;
+	background-color: blue;
+	color:gold;
+	padding: 50px;
+	margin: 20px;
+	border: 3px solid gold;
+}
+.inputData {
+	text-align: center;
+	float: left;
+	background-color: black;
+	height: 500px;
+	width: 300px;
+	margin: 40px;
+	border: 3px solid white;
+}
+.show-text {
+	float: left;
+	background-color: gold;
+	height: 75%;
+	width: 25%;
+	margin: 40px;
+	border: 3px solid blue;
+}
+.show-notes {
+	text-align: center;
+	float: left;
+	background-color: white;
+	width: 40%;
+	min-height: 500px;
+	height: 75%;
+	margin: 40px;
+	border: 3px solid black;
+	font-size:18px;
+}
+#textTitle {
+	text-align: center;
+}
+.deleteOne {
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+}
+.noteImg {
+	height: 15px;
+	width: 15px;
+	margin-left: 10px;
+}
+.problem {
+	margin:10px;
+}
+.complete {
+	font-size:14px;
+	font-style: italic;
+}
+#textBlock {
+	height:400px;
+	width: 250px;
+	margin-top: 10px;
+}
+#invisible {
+  visibility: hidden;
+}
