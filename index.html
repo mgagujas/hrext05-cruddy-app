@@ -2,14 +2,31 @@
 <html>
   <head>
     <title>HREXT05 Cruddy App</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.8.3/underscore-min.js"></script>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="app.js"></script>
-    <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <input type="text" class="text-input" id="theKey" placeholder="Enter some text">
-    <button class="add-text-btn">Add text</button>
-    <button class="clear-cache-btn">Clear Entries</button>
-    <div class="show-text"></div>
+    <header>Repetition</header>
+    <div class="inputData">
+      <input type="text" class="text-input" id="theKey" placeholder="Enter title">
+      <input type="text" class="text-input" id="website" placeholder="Enter URL">
+      <button class="add-text-btn">Add text</button>
+      <button class="clear-cache-btn">Clear Entries</button>
+      <button class="open-random-problem">Train</button>
+      <textarea id="invisible" placeholder="Insert notes here"></textarea>
+    </div>
+    <div class="show-text">
+      <div id="textTitle">Interesting Problems 
+        <br>
+        <select id="select-sort">
+          <option>Name</option>
+          <option>Completed</option>
+        </select>
+        <button onclick="sortBy()">Sort</button>
+      </div>
+    </div>
+    <div class="show-notes">Notes</div>
   </body>
 </html>
